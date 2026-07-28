@@ -11,7 +11,7 @@ export default function ShoppingItems({ items }: {items: IShoppingItems}) {
             <p>Category: {category}</p>
             { isInStock ? 
                 <span className="tag">In Stock</span>
-                : <span className="tag">Out of Stock</span>
+                : <span className="tag out-of-stock">Out of Stock</span>
             }
             
         </div>
